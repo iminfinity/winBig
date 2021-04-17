@@ -2,7 +2,7 @@ package models
 
 // Team struct
 type Team struct {
-	Players [11]Player
+	Players [11]Player `json:"playing11,omitempty"`
 }
 
 // Dream11 struct

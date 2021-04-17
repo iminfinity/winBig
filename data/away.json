@@ -1,0 +1,70 @@
+{
+    "playing11" : [
+        {
+            "id": 12,
+            "name": "J Bairstow",
+            "credits" : 9.0,
+            "position" :"keeper"
+        },
+        {
+            "id": 13,
+            "name": "W Saha",
+            "credits" : 8.5,
+            "position" :"keeper"
+        },
+        {
+            "id": 14,
+            "name": "D Warner",
+            "credits" : 10.5,
+            "position" :"batsmen"
+        },
+        {
+            "id": 15,
+            "name": "M Pandey",
+            "credits" : 9.0,
+            "position" :"batsmen"
+        },
+        {
+            "id": 16,
+            "name": "A Samad",
+            "credits" : 8.0,
+            "position" :"batsmen"
+        },
+        {
+            "id": 17,
+            "name": "J Holder",
+            "credits" : 9.0,
+            "position" :"allrounder"
+        },
+        {
+            "id": 18,
+            "name": "V Shanker",
+            "credits" : 8.0,
+            "position" :"allrounder"
+        },
+        {
+            "id": 19,
+            "name": "Rashid Khan",
+            "credits" : 9.5,
+            "position" :"bowler"
+        },
+        {
+            "id": 20,
+            "name": "B Kumar",
+            "credits" : 9.0,
+            "position" :"bowler"
+        },
+        {
+            "id": 21,
+            "name": "T Natarajan",
+            "credits" : 8.5,
+            "position" :"bowler"
+        },
+        {
+            "id": 22,
+            "name": "S Nadeem",
+            "credits" : 8.0,
+            "position" :"bowler"
+        }
+    ]
+}

@@ -1,12 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"github.com/iminfinity/dream11/utils"
+)
 
 func main() {
-	fmt.Println("Dream 11")
-	// rule
-	// atleast 1 wk - max 4
-	// atleast 3 batsmen - max 6
-	// atleast 1 allrounder - max 4
-	// atleast 3 bowler - max 6
+	homeTeam := utils.ReadData("home")
+	awayTeam := utils.ReadData("away")
+
+	dream11 := utils.DreamTeam(homeTeam, awayTeam)
+
+	utils.PrintTeam(dream11)
 }

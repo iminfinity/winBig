@@ -35,23 +35,23 @@ func DreamTeam(homeTeam, awayTeam models.Team) models.Dream11 {
 
 			var tempPlayer models.Player
 
-			if choosePlayer <= 11 { // this is because playerNumber for home team starts from 1 to 11, and 1 is reserved for wk
+			if choosePlayer <= 11 { // this is because playerNumber for home team starts from 1 to 11
 				tempPlayer = copyPlayerInfo(homeTeam.Players[choosePlayer-1])
-			} else { // similarly playerNumber for away team starts from 12 to 22, and 12 is reserved for wk
-				tempPlayer = copyPlayerInfo(awayTeam.Players[choosePlayer-1])
+			} else { // similarly playerNumber for away team starts from 12 to 22
+				tempPlayer = copyPlayerInfo(awayTeam.Players[choosePlayer-12])
 			}
 
 			switch tempPlayer.Position {
-			case 0:
+			case "keeper":
 				keeper++
 				break
-			case 1:
+			case "batsmen":
 				batsmen++
 				break
-			case 2:
+			case "allrounder":
 				allrounder++
 				break
-			case 3:
+			case "bowler":
 				bowler++
 				break
 			default:
@@ -110,8 +110,6 @@ func DreamTeam(homeTeam, awayTeam models.Team) models.Dream11 {
 		currentTeam.Players[chooseViceCaptain].IsGameViceCaptain = true
 
 		dream11.Teams[i] = currentTeam
-
 	}
-
 	return dream11
 }

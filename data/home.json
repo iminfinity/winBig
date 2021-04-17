@@ -1,16 +1,70 @@
 {
-    "playing" : [
+    "playing11" : [
         {
-            "name": "",
-            "credits" : "",
-            "position" :"",
-            "isBaised": ""
+            "id": 1,
+            "name": "R Sharma",
+            "credits" : 10.0,
+            "position" :"batsmen"
         },
         {
-            "name": "",
-            "credits" : "",
-            "position" :"",
-            "isBaised": ""
+            "id": 2,
+            "name": "S Yadav",
+            "credits" : 9.5,
+            "position" :"batsmen"
+        },
+        {
+            "id": 3,
+            "name": "I Kishan",
+            "credits" : 8.5,
+            "position" :"keeper"
+        },
+        {
+            "id": 4,
+            "name": "Q de kock",
+            "credits" : 9.5,
+            "position" :"keeper"
+        },
+        {
+            "id": 5,
+            "name": "H Pandya",
+            "credits" : 9.0,
+            "position" :"allrounder"
+        },
+        {
+            "id": 6,
+            "name": "K Pandya",
+            "credits" : 8,
+            "position" :"allrounder"
+        },
+        {
+            "id": 7,
+            "name": "K Pollard",
+            "credits" : 8.5,
+            "position" :"batsmen"
+        },
+        {
+            "id": 8,
+            "name": "M Jansen",
+            "credits" : 8.0,
+            "position" :"bowler"
+        },
+        {
+            "id": 9,
+            "name": "T Boult",
+            "credits" : 9.0,
+            "position" :"bowler"
+        },
+        {
+            "id": 10,
+            "name": "J Bumrah",
+            "credits" : 9.0,
+            "position" :"bowler"
+        },
+        {
+            "id": 11,
+            "name": "R Charar",
+            "credits" : 8.5,
+            "position" :"bowler"
         }
     ]
 }
